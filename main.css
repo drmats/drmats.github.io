@@ -41,16 +41,18 @@ body {
 .box {
     padding: 8%; margin: 2%;
     transition-duration: 0.3s;
+    transition-property: all;
     background-position: center center;
     background-image: none;
     background-repeat: no-repeat;
-    transition-property: all;
+    background-image: url(favicon.ico);
+    background-size: 0%;
     opacity: 0.3;
 }
 
 .box:hover, .box:focus, .box:active {
     transform: scale(1.1);
-    background-image: url(favicon.ico);
+    background-size: 10%;
     opacity: 0.8;
 }
 
