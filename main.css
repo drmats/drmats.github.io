@@ -9,7 +9,7 @@
 html {
     width: 100%;
     height: 100%;
-    background-color: #01011d;
+    background-color: #01012e;
     overflow: hidden;
 }
 
@@ -20,6 +20,18 @@ body {
     background-size: cover;
     color: white;
     font-family: sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow:
+        0px 0px 5px #000,
+        0px 0px 10px #000;
+    display: block;
+    width: 80%;
+    text-align: center;
 }
 
 .flex-all-center {
@@ -39,115 +51,111 @@ body {
 }
 
 .box {
-    padding: 8%; margin: 2%;
+    padding: 0%; margin: 2%;
+    width: 20%; height: 40%;
     transition-duration: 0.3s;
     transition-property: all;
-    background-position: center center;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-image: url(favicon.ico);
-    background-size: 0%;
-    opacity: 0.3;
+    opacity: 0.5;
+    overflow: hidden;
 }
 
 .box:hover, .box:focus, .box:active {
     transform: scale(1.1);
-    background-size: 10%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .c1 {
-    background-color: #56dd952d;
+    background-color: #56dd9530;
     box-shadow: 0px 0px 20px #56dd959f;
     border: 1px solid #56dd9549;
 }
 
 .c1:hover, .c1:focus, .c1:active {
-    background-color: #56dd951d;
+    background-color: #56dd952e;
     box-shadow: 0px 0px 10px #56dd959f;
     border: 1px solid #56dd9589;
 }
 
 .c2 {
-    background-color: #56a7dd2d;
+    background-color: #56a7dd30;
     box-shadow: 0px 0px 20px #56a7dd9f;
     border: 1px solid #56a7dd49;
 }
 
 .c2:hover, .c2:focus, .c2:active {
-    background-color: #56a7dd1d;
+    background-color: #56a7dd2e;
     box-shadow: 0px 0px 10px #56a7dd9f;
     border: 1px solid #56a7dd89;
 }
 
 .c3 {
-    background-color: #b256dd2d;
+    background-color: #b256dd30;
     box-shadow: 0px 0px 20px #b256dd9f;
     border: 1px solid #b256dd49;
 }
 
 .c3:hover, .c3:focus, .c3:active {
-    background-color: #b256dd1d;
+    background-color: #b256dd2e;
     box-shadow: 0px 0px 10px #b256dd9f;
     border: 1px solid #b256dd89;
 }
 
 .c4 {
-    background-color: #dd56782d;
+    background-color: #dd567830;
     box-shadow: 0px 0px 20px #dd56789f;
     border: 1px solid #dd567849;
 }
 
 .c4:hover, .c4:focus, .c4:active {
-    background-color: #dd56781d;
+    background-color: #dd56782e;
     box-shadow: 0px 0px 10px #dd56789f;
     border: 1px solid #dd567889;
 }
 
 .c5 {
-    background-color: #dd88562d;
+    background-color: #dd885630;
     box-shadow: 0px 0px 20px #dd88569f;
     border: 1px solid #dd885649;
 }
 
 .c5:hover, .c5:focus, .c5:active {
-    background-color: #dd88561d;
+    background-color: #dd88562e;
     box-shadow: 0px 0px 10px #dd88569f;
     border: 1px solid #dd885689;
 }
 
 .c6 {
-    background-color: #ddd4562d;
+    background-color: #ddd45630;
     box-shadow: 0px 0px 20px #ddd4569f;
     border: 1px solid #ddd45649;
 }
 
 .c6:hover, .c6:focus, .c6:active {
-    background-color: #ddd4561d;
+    background-color: #ddd4562e;
     box-shadow: 0px 0px 10px #ddd4569f;
     border: 1px solid #ddd45689;
 }
 
 .c7 {
-    background-color: #aedd562d;
+    background-color: #aedd5630;
     box-shadow: 0px 0px 20px #aedd569f;
     border: 1px solid #aedd5649;
 }
 
 .c7:hover, .c7:focus, .c7:active {
-    background-color: #aedd561d;
+    background-color: #aedd562e;
     box-shadow: 0px 0px 10px #aedd569f;
     border: 1px solid #aedd5689;
 }
 
 .c8 {
-    background-color: #56d9dd2d;
+    background-color: #56d9dd30;
     box-shadow: 0px 0px 20px #56d9dd9f;
     border: 1px solid #56d9dd49;
 }
 
 .c8:hover, .c8:focus, .c8:active {
-    background-color: #56d9dd1d;
+    background-color: #56d9dd2e;
     box-shadow: 0px 0px 10px #56d9dd9f;
     border: 1px solid #56d9dd89;
 }
